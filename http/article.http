@@ -1,0 +1,2 @@
+### 1. 아티클 조회(조회수 증가)
+GET localhost:8080/articles/3
