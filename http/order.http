@@ -1,0 +1,41 @@
+### 1-1. 주문 생성
+POST localhost:8080/orders
+Content-Type: application/json
+
+{
+  "item": "mouse",
+  "count": 5,
+  "totalPrice": 1000000,
+  "status": "PENDING"
+}
+
+### 1-2. 주문 생성
+POST localhost:8080/orders
+Content-Type: application/json
+
+{
+  "item": "monitor",
+  "count": 2,
+  "totalPrice": 300000,
+  "status": "PENDING"
+}
+
+### 2. 주문 조회
+GET localhost:8080/orders/3d674d98-0225-43d5-849e-52349285201d
+
+### 3. 주문 전체 조회
+GET localhost:8080/orders
+
+### 4. 주문 수정
+PUT localhost:8080/orders/96ae66e9-7379-44ea-9234-85aa318eff64
+Content-Type: application/json
+
+{
+  "item": "mouse",
+  "count": 5,
+  "totalPrice": 1000000,
+  "status": "DELIVERED"
+}
+
+### 5. 주문 삭제
+DELETE localhost:8080/orders/96ae66e9-7379-44ea-9234-85aa318eff64
