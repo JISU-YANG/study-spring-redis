@@ -1,4 +1,4 @@
-package com.sparta.redis;
+package com.sparta.redis.article;
 
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
