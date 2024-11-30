@@ -1,0 +1,14 @@
+### 아이템 1 구매
+POST localhost:8080/items/1/purchase
+
+### 아이템 2 구매
+POST localhost:8080/items/2/purchase
+
+### 아이템 3 구매
+POST localhost:8080/items/3/purchase
+
+### 아이템 4 구매
+POST localhost:8080/items/4/purchase
+
+### 랭킹 조회
+GET localhost:8080/items/ranks
